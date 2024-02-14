@@ -4,11 +4,13 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import WeatherWeb from "./components/Weather-app/WeatherWeb";
+import Navbar from "./components/Navbar/Navbar";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <>
-<WeatherWeb/>
+    <Navbar />
+    <WeatherWeb />
   </>
 );
 
